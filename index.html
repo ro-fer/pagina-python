@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title></title>
+</head>
+<body>
+  <main id="main-doc">
+    <nav id="navbar">
+      <header class="titulo">
+        <h1>Python</h1>
+      </header>
+        <div class="nav"><a href="#Introducción" class="nav-link">Introducción</a></div>
+        <div class="nav"><a href="#Interprete" class="nav-link">Interprete</a></div>
+        <div class="nav"><a href="#Herramientas_para_control_de_flujo" class="nav-link">Herramientas para control de flujo</a></div>
+        <div class="nav"><a href="#Definir_funciones" class="nav-link">Definir funciones</a></div>
+        <div class="nav"><a href="#Estructuras_de_datos" class="nav-link">Estructuras de datos</a></div>
+    </nav>
+    <section class="main-section" id="Introducción">
+      <header ><h3>Introducción</h3></header>
+      <p>Es un lenguaje de programación <code>potente y fácil de aprender.</code></p>
+      <p>Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de <code>programación orientado a objetos</code>. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.</p>
+    </section>
+    <section class="main-section" id="Interprete">
+      <header ><h3>Interprete</h3></header>
+      <p>
+        El intérprete de Python y la extensa librería estándar se encuentran disponibles libremente en código fuente y de forma binaria para la mayoría de las plataformas desde la <code><a href="https://www.python.org/" target="_blank">Web de Python</a></code>,  y se pueden distribuir libremente. El mismo sitio también contiene distribuciones y referencias a muchos módulos libres de Python de terceros, programas, herramientas y documentación adicional.
+      </p>
+      <p>
+        El intérprete de Python es fácilmente extensible con funciones y tipos de datos implementados en C o C++ (u otros lenguajes que permitan ser llamados desde C). Python también es apropiado como un lenguaje para extender <code>aplicaciones modificables</code>.
+      </p>
+    </section>
+    <section class="main-section" id="Herramientas_para_control_de_flujo">
+      <header ><h3>Herramientas para control de flujo</h3></header>
+      <ul>
+        <li>
+          <h4>La setencia if</h4>
+          <p>Selecciona exactamente una de las suites evaluando las expresiones una por una hasta que se encuentre <code>una verdadera</code>; entonces esa suite se ejecuta. Si todas las expresiones son falsas, se ejecuta la suite de cláusulas else, si está presente.</p>
+        </li>
+        <li>
+          <h4>La setencia while</h4>
+          <p>Se usa para la ejecución <code>repetida</code> siempre que una expresión sea verdadera. Esto prueba repetidamente la expresión y, si es verdadera, ejecuta la primera suite; si la expresión es falsa (que puede ser la primera vez que se prueba), se ejecuta el conjunto de cláusulas else, si está presente, y el bucle termina.</p>
+        </li>
+        <li>
+          <h4>La setencia for</h4>
+          <p>Se usa para <code>iterar</code> sobre los elementos de una secuencia (como una cadena de caracteres, tupla o lista) u otro objeto iterable</p>
+        </li>
+        <li>
+          <h4>La secuencia try</h4>
+          <p>
+            Especifica controladores de <code>excepciones y/o código</code> de limpieza para un grupo de sentencias.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="main-section" id="Definir_funciones">
+      <header> <h3>Definir funciones</h3> </header>
+      <p>
+        La palabra reservada <code>def</code> se usa para definir funciones. Debe seguirle el nombre de la función y la lista de parámetros formales entre paréntesis. Las sentencias que forman el cuerpo de la función empiezan en la línea siguiente, y deben estar con sangría.
+      </p>
+      <p>
+        La primera sentencia del cuerpo de la función puede ser opcionalmente una cadena de texto literal; esta es la cadena de texto de documentación de la función, o <code>docstring</code>. 
+      </p>
+    </section>
+    <section class="main-section" id="Estructuras_de_datos">
+      <header> <h3>Estructuras de datos</h3> </header>
+      <ul>
+        <li>
+          <h4>Listas</h4>
+          <p>Son un tipo de dato que permite almacenar datos de cualquier tipo. Son <code>mutables y dinámicas</code>, lo cual es la principal diferencia con los sets y las tuplas.</p>
+        </li>
+        <li>
+          <h4>Tuplas</h4>
+          <p>
+            Son estructuras de datos similares a las listas, pero a diferencia de ellas, son <code>inmutables</code>, lo que significa que no se pueden modificar después de ser creadas. Las tuplas se utilizan para almacenar datos relacionados que no deben cambiar, como las coordenadas de un punto en un plano. Se crean utilizando paréntesis y los elementos se separan por comas.
+          </p>
+        </li>
+        <li>
+          <h4>Sets</h4>
+          <p>
+            Son conjuntos <code>desordenados de elementos únicos</code>. No permiten duplicados y se utilizan para realizar operaciones de conjuntos, como uniones, intersecciones y diferencias. Los sets son muy útiles cuando necesitamos almacenar elementos únicos y realizar operaciones matemáticas con ellos. Se crean utilizando llaves o la función set().
+          </p>
+        </li>
+        <li>
+          <h4>Diccionario</h4>
+          <p>
+            Son <code>estructuras de datos que almacenan pares clave-valor.</code> Cada elemento del diccionario tiene una clave única asociada a un valor. Los diccionarios permiten acceder rápidamente a los valores utilizando las claves y son ideales para representar relaciones y mapeos. Se crean utilizando llaves y los pares clave-valor se separan por dos puntos.
+          </p>
+        </li>
+        <li>
+          <h4>Strings</h4>
+          <p>
+            Aunque no se consideran una estructura de datos en el sentido estricto, las cadenas de texto desempeñan un papel fundamental en la programación. Las cadenas son <code>secuencias inmutables de caracteres y se utilizan para representar texto</code>. Python ofrece una amplia gama de operaciones y métodos para manipular cadenas, como concatenación, búsqueda de subcadenas y reemplazo de caracteres.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="divider"></div>
+    <div>
+      <p>
+        Copyright Todos los derechos reservados:
+        <div>
+          <a href="./index.html">
+            <strong class="text-footer">Página Python - 2024</strong>
+          </a>
+          <p>
+            Pagina para : <a href="https://www.freecodecamp.org/espanol/roh__fer" target="_blank" > FreeCodeCamp</a>
+          </p>
+        </div>
+      </p>
+      <div class="git-hub">
+        <p>Diseñado por : <a class="text-footer" href="https://github.com/ro-fer" target="_blank">Roh Fernandez</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
